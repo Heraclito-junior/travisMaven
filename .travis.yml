@@ -1,4 +1,5 @@
 language: java
-mvn test
+script: mvn clean verify
 services:
   - mysql
+  
